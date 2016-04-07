@@ -1,10 +1,13 @@
+set t_Co=256
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Solarized' 
+Plugin 'solarized'
+Plugin 'benmills/vimux'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'editorconfig/editorconfig-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -22,6 +25,17 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax enable
+syntax on
 let g:solarized_termtrans = 1
 set background=light
 colorscheme solarized
+
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
+
