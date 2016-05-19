@@ -8,6 +8,7 @@ Plugin 'solarized'
 Plugin 'benmills/vimux'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'elixir-lang/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -27,7 +28,7 @@ filetype plugin indent on    " required
 syntax enable
 syntax on
 let g:solarized_termtrans = 1
-set background=light
+set background=dark
 colorscheme solarized
 
 inoremap  <Up>     <NOP>

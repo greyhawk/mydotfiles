@@ -49,7 +49,7 @@ ZSH_THEME="awesomepanda"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime)
+plugins=(git brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime mix)
 
 
 # User configuration
@@ -96,16 +96,25 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
-eval $(docker-machine env --swarm swarm-master)
+export PATH="/usr/local/sbin:$PATH"
+
+export RANCHER_URL=http://114.112.81.34:8080/
+export RANCHER_ACCESS_KEY=E9F2D4C3C507FF4C90E7
+export RANCHER_SECRET_KEY=dDnaD4hU15borfHkjnKgJRqsBTsYvML51HJsNzEP
 
 alias 176='ssh root@120.24.229.176'
 alias xdy_ci='ssh root@101.251.245.234'
-alias xdy_s1='ssh root@38.121.61.106'
 alias mesos3='ssh appuser@121.10.118.3 -p 36000'
 alias xdy_p40='ssh appuser@121.10.118.40 -p 36000'
 alias xdy_p41='ssh appuser@121.10.118.41 -p 36000'
+alias xdy_p37='ssh appuser@121.10.118.37 -p 36000'
 alias xdy_p56='ssh appuser@121.10.118.56 -p 36000'
 alias mesos1='ssh appuser@121.10.118.60 -p 36000'
 alias mesos2='ssh appuser@121.10.118.62 -p 36000'
 alias mesos4='ssh appuser@121.10.118.24 -p 36000'
 alias mesos5='ssh appuser@121.10.118.25 -p 36000'
+alias swarm001='ssh root@114.112.81.34'
+alias swarm002='ssh root@114.112.81.35'
+alias swarm003='ssh root@114.112.81.36'
+alias swarm004='ssh root@114.112.81.37'
+alias axdy001='ssh root@38.121.61.106'
