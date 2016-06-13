@@ -85,6 +85,7 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export HOMEBREW_GITHUB_API_TOKEN=2f06b2dd4a84c88e563ac6e7044dfcd90e550fab
+export HOMEBREW_CASK_OPTS=--caskroom=/opt/homebrew-cask/Caskroom
 
 autoload run-help
 HELPDIR=/usr/local/share/zsh/help

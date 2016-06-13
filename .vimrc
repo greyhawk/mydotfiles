@@ -10,6 +10,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'aklt/plantuml-syntax'
+Plugin 'pangloss/vim-javascript'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
