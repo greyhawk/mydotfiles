@@ -49,7 +49,7 @@ ZSH_THEME="awesomepanda"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime mix)
+plugins=(git brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime mix rebar)
 
 
 # User configuration
