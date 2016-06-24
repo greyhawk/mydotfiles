@@ -13,6 +13,7 @@ Plugin 'aklt/plantuml-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'NBUT-Developers/extra-instant-markdown'
 Plugin 'Shougo/unite.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

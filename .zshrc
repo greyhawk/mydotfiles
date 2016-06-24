@@ -49,7 +49,7 @@ ZSH_THEME="awesomepanda"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime mix rebar)
+plugins=(git github brew vi-mode docker docker-compose mvn sbt scala vagrant tmux sublime mix rebar)
 
 
 # User configuration
@@ -119,3 +119,5 @@ alias swarm002='ssh root@114.112.81.35'
 alias swarm003='ssh root@114.112.81.36'
 alias swarm004='ssh root@114.112.81.37'
 alias axdy001='ssh root@38.121.61.106'
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
