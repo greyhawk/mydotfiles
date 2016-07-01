@@ -1,3 +1,8 @@
+;; 显示行号
+(global-linum-mode 1)
+;; 关闭自动备份
+(setq make-back-files nil)
+
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
 
