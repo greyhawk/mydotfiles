@@ -1,5 +1,5 @@
 ;; 显示行号
-(global-linum-mode 1)
+(global-linum-mode 0)
 ;; 关闭自动备份
 (setq make-back-files nil)
 
