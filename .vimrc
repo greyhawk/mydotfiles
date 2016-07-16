@@ -35,6 +35,8 @@ let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
 
+set shell=bash\ -i
+
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
 inoremap  <Left>   <NOP>
