@@ -1,7 +1,13 @@
 ;; 显示行号
 (global-linum-mode 0)
-;; 关闭自动备份
-(setq make-back-files nil)
+;; 自动备份
+(setq backup-directory-alist `(("." . "~/.saves")))
+(setq backup-by-copying t)
+(setq delete-old-versions t
+      kept-new-versions 3
+      kept-old-versions 2
+      version-control t)
+;; 关闭自动保存
 
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
