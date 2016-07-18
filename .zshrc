@@ -90,7 +90,7 @@ export HOMEBREW_CASK_OPTS=--caskroom=/opt/homebrew-cask/Caskroom
 autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
