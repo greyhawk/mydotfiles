@@ -7,7 +7,8 @@
       kept-new-versions 3
       kept-old-versions 2
       version-control t)
-;; 关闭自动保存
+;; 关闭临时文件
+(setq auto-save-default nil)
 
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
