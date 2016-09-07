@@ -7,3 +7,4 @@
 (depends-on "erlang")
 (depends-on "evil")
 (depends-on "pallet")
+(depends-on "markdown-mode")
