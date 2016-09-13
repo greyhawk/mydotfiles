@@ -6,5 +6,7 @@
 (depends-on "elixir-mode")
 (depends-on "erlang")
 (depends-on "evil")
-(depends-on "pallet")
 (depends-on "markdown-mode")
+(depends-on "pallet")
+(depends-on "tern")
+(depends-on "tern-auto-complete")
