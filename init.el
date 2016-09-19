@@ -19,18 +19,25 @@
 (require 'evil)
 (evil-mode 1)
 
+(require 'dockerfile-mode)
+
+(require 'editorconfig)
+(editorconfig-mode 1)
+
 (load-theme 'solarized t)
 (set-terminal-parameter nil 'background-mode 'dark)
 (enable-theme 'solarized)
 
 (add-hook 'after-init-hook (lambda ()
-			      (require 'edts-start)))
+			     (require 'edts-start)))
 
 
 (add-hook 'after-init-hook 'global-company-mode)
 
-(add-hook 'js-mode-hook (lambda () (term-mode t)))
+(add-to-list 'auto-mode-alist '("\\.json\\'" . js3-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js3-mode))
+(add-hook 'js3-mode-hook (lambda () (tern-mode t)))
 (eval-after-load 'tern
   '(progn
      (require 'tern-auto-complete)
-     (tern-ac-setup)))
+     (tern-ac-setup))) 
