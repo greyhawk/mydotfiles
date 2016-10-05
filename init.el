@@ -1,5 +1,3 @@
-;; 显示行号
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -32,22 +30,24 @@
 (editorconfig-mode 1)
 
 (load-theme 'solarized t)
-(set-terminal-parameter nil 'background-mode 'dark)
+(set-terminal-parameter nil 'background-mode 'light)
 (enable-theme 'solarized)
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
 
-
 (add-hook 'after-init-hook 'global-company-mode)
 
-(add-to-list 'auto-mode-alist '("\\.json\\'" . js3-mode))
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js3-mode))
-(add-hook 'js3-mode-hook (lambda () (tern-mode t)))
+(add-hook 'js-mode-hook (lambda () (tern-mode t)))
 (eval-after-load 'tern
   '(progn
      (require 'tern-auto-complete)
      (tern-ac-setup))) 
+
+(require 'auto-complete-config)
+(ac-config-default)
+(add-to-list 'ac-modes 'js-mode)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -55,7 +55,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (nginx-mode groovy-mode tern-auto-complete pallet markdown-mode js3-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
+    (tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

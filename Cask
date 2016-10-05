@@ -9,7 +9,6 @@
 (depends-on "erlang")
 (depends-on "evil")
 (depends-on "groovy-mode")
-(depends-on "js3-mode")
 (depends-on "markdown-mode")
 (depends-on "nginx-mode")
 (depends-on "pallet")
