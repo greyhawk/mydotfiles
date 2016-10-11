@@ -4,7 +4,7 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(global-linum-mode 0)
+(global-linum-mode 1)
 ;; 自动备份
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq backup-by-copying t)
@@ -30,13 +30,15 @@
 (editorconfig-mode 1)
 
 (load-theme 'solarized t)
-(set-terminal-parameter nil 'background-mode 'light)
+(set-terminal-parameter nil 'background-mode 'dark)
 (enable-theme 'solarized)
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
 
 (add-hook 'after-init-hook 'global-company-mode)
+
+(add-hook 'elixir-mode-hook (lambda () (alchemist-mode t)))
 
 (add-hook 'js-mode-hook (lambda () (tern-mode t)))
 (eval-after-load 'tern
