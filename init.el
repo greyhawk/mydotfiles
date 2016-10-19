@@ -14,6 +14,7 @@
       version-control t)
 ;; 关闭临时文件
 (setq auto-save-default nil)
+(menu-bar-mode -1)
 
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
@@ -30,8 +31,13 @@
 (editorconfig-mode 1)
 
 (load-theme 'solarized t)
-(set-terminal-parameter nil 'background-mode 'dark)
-(enable-theme 'solarized)
+(add-hook 'after-make-frame-functions
+	  (lambda (frame)
+	    (let ((mode (if (display-graphic-p frame) 'light 'dark)))
+	      (set-frame-parameter frame 'background-mode mode)
+	      (set-terminal-parameter frame 'background-mode mode))
+	    (enable-theme 'solarized)))
+
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
@@ -42,9 +48,9 @@
 
 (add-hook 'js-mode-hook (lambda () (tern-mode t)))
 (eval-after-load 'tern
-  '(progn
-     (require 'tern-auto-complete)
-     (tern-ac-setup))) 
+		 '(progn
+		    (require 'tern-auto-complete)
+		    (tern-ac-setup))) 
 
 (require 'auto-complete-config)
 (ac-config-default)
@@ -57,7 +63,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
+    (vue-mode tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

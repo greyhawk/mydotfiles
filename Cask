@@ -14,3 +14,4 @@
 (depends-on "pallet")
 (depends-on "tern")
 (depends-on "tern-auto-complete")
+(depends-on "vue-mode")
