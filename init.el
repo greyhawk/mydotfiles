@@ -4,7 +4,7 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(global-linum-mode 1)
+(global-linum-mode 0)
 ;; 自动备份
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq backup-by-copying t)
@@ -63,7 +63,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (vue-mode tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
+    (jade-mode vue-mode tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
