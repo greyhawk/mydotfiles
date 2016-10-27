@@ -4,7 +4,6 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(global-linum-mode 0)
 ;; 自动备份
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq backup-by-copying t)
@@ -14,7 +13,9 @@
       version-control t)
 ;; 关闭临时文件
 (setq auto-save-default nil)
+
 (menu-bar-mode -1)
+(global-linum-mode t)
 
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
