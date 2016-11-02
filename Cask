@@ -2,6 +2,7 @@
 
 (depends-on "alchemist")
 (depends-on "color-theme-solarized")
+(depends-on "counsel")
 (depends-on "dockerfile-mode")
 (depends-on "editorconfig")
 (depends-on "edts")
@@ -12,6 +13,7 @@
 (depends-on "markdown-mode")
 (depends-on "nginx-mode")
 (depends-on "pallet")
+(depends-on "swiper")
 (depends-on "tern")
 (depends-on "tern-auto-complete")
 (depends-on "vue-mode")

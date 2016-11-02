@@ -17,6 +17,14 @@
 (menu-bar-mode -1)
 (global-linum-mode t)
 
+
+;; 打开配置文件
+(defun open-init-file ()
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
+(global-set-key (kbd "<f2>") 'open-init-file)
+
+
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
 
@@ -26,10 +34,21 @@
 (require 'evil)
 (evil-mode 1)
 
+(require 'org)
+(setq org-src-fontify-natively t)
+
 (require 'dockerfile-mode)
 
 (require 'editorconfig)
 (editorconfig-mode 1)
+
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-x C-f") 'counsel-find-file)
+
 
 (load-theme 'solarized t)
 (add-hook 'after-make-frame-functions
@@ -64,7 +83,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (jade-mode vue-mode tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
+    (counsel swiper jade-mode vue-mode tern tern-auto-complete pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
