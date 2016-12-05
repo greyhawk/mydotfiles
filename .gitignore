@@ -1,2 +1,3 @@
 hub
 .config/yarn/**
+.config/htop
