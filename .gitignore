@@ -1,3 +1,4 @@
 hub
 .config/yarn/**
 .config/htop
+.DS_Store

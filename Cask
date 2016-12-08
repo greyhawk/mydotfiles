@@ -18,6 +18,7 @@
 (depends-on "pallet")
 (depends-on "php-mode")
 (depends-on "popwin")
+(depends-on "reveal-in-osx-finder")
 (depends-on "smartparens")
 (depends-on "swiper")
 (depends-on "tern")
