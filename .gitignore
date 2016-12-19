@@ -1,4 +1,6 @@
 hub
-.config/yarn/**
-.config/htop
 .DS_Store
+.config
+!.config/omf
+!.config/fish
+!.config/fisherman
