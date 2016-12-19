@@ -19,6 +19,7 @@
 (setq ivy-use-virtual-buffers t)
 
 (smartparens-global-mode t)
+(sp-local-pair '(emacs-lisp-mode lisp-interaction-mode) "'" nil :actions nil)
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
