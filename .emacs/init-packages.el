@@ -18,10 +18,7 @@
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 
-
 (smartparens-global-mode t)
-
-
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
