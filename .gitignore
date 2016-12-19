@@ -1,6 +1,6 @@
 hub
 .DS_Store
-.config
+.config/
 !.config/omf
 !.config/fish
 !.config/fisherman
