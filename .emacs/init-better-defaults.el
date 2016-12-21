@@ -16,6 +16,19 @@
 
 (delete-selection-mode t)
 
+(define-advice show-paren-function (:around (fn) fix-show-paren-function)
+  "Highlight enclosing parens."
+  (cond ((looking-at-p "\\s(") (funcall fn))
+	(t (save-excursion
+	     (ignore-errors (backward-up-list))
+	     (funcall fn)))))
+
+(defun remove-dos-eol ()
+  "Replace DOS eolns CR LF with unix eolns CR"
+  (interactive)
+  (goto-char (point-min))
+  (while (search-forward "\r" nil t) (replace-match "")))
+
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
 
 ;; 定义缩写

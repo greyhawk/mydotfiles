@@ -16,7 +16,6 @@
 (depends-on "nginx-mode")
 (depends-on "nodejs-repl")
 (depends-on "pallet")
-(depends-on "php-mode")
 (depends-on "popwin")
 (depends-on "reveal-in-osx-finder")
 (depends-on "smartparens")
