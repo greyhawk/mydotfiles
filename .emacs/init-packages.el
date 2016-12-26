@@ -15,11 +15,19 @@
 (require 'editorconfig)
 (editorconfig-mode 1)
 
+(require 'py-autopep8)
+
+(require 'ein)
+
+(require 'org-pomodoro)
+
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 
 (smartparens-global-mode t)
 (sp-local-pair '(emacs-lisp-mode lisp-interaction-mode) "'" nil :actions nil)
+
+(elpy-enable)
 
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
@@ -29,6 +37,11 @@
 (add-hook 'elixir-mode-hook (lambda () (alchemist-mode t)))
 
 (add-hook 'js-mode-hook (lambda () (tern-mode t)))
+
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+(add-hook 'elpy-mode-hook (lambda () 
+			    (elpy-use-ipython "ipython3") 
+			    (setq python-shell-interpreter "ipython3" python-shell-interpreter-args "--simple-prompt --pprint")))
 
 (with-eval-after-load 'company 
 		      (add-to-list 'company-backends 'company-tern))

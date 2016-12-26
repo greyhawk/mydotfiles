@@ -43,6 +43,7 @@
   (interactive)
   (indent-region (point-min) (point-max)))
 
+;; 缓存内容缩进
 (defun indent-region-or-buffer()
   "Indent a region if selected, otherwise the whole buffer."
   (interactive)
