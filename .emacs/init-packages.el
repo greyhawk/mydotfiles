@@ -29,14 +29,20 @@
 
 (elpy-enable)
 
+(yas-reload-all)
+(add-hook 'prog-mode-hook #'yas-minor-mode)
+
 (add-hook 'after-init-hook (lambda ()
 			     (require 'edts-start)))
+
 
 (add-hook 'after-init-hook 'global-company-mode)
 
 (add-hook 'elixir-mode-hook (lambda () (alchemist-mode t)))
 
-(add-hook 'js-mode-hook (lambda () (tern-mode t)))
+(add-hook 'js-mode-hook (lambda ()
+			  (tern-mode t)
+			  (flycheck-mode)))
 
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 (add-hook 'elpy-mode-hook (lambda () 

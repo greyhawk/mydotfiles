@@ -6,7 +6,7 @@
  '(company-idle-delay 0.5)
  '(package-selected-packages
    (quote
-    (org-pomodoro magit ein py-autopep8 flycheck elpy reveal-in-osx-finder yaml-mode popwin nodejs-repl company-tern smartparens counsel swiper jade-mode vue-mode tern pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
+    (auto-yasnippet helm-ag org-pomodoro magit ein py-autopep8 flycheck elpy reveal-in-osx-finder yaml-mode popwin nodejs-repl company-tern smartparens counsel swiper jade-mode vue-mode tern pallet nginx-mode markdown-mode groovy-mode evil edts editorconfig dockerfile-mode color-theme-solarized alchemist))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

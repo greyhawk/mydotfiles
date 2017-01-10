@@ -15,14 +15,18 @@
 (global-set-key (kbd "C-h v") 'counsel-describe-variable)
 (global-set-key (kbd "C-c p f") 'counsel-git)
 
-(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
 
 (global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
 
 (global-set-key (kbd "TAB") 'hippie-expand)
 
+(global-set-key (kbd "C-c a") 'org-agenda)
 ;; r aka remember
 (global-set-key (kbd "C-c r") 'org-capture)
+
+(global-set-key (kbd "H-w") #'aya-create)
+(global-set-key (kbd "H-y") #'aya-expand)
 
 (with-eval-after-load 'company
   (define-key company-active-map (kbd "M-n") nil)
