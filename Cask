@@ -2,6 +2,7 @@
 (source "melpa" "http://elpa.emacs-china.org/melpa/")
 
 (depends-on "alchemist")
+(depends-on "auto-yasnippet")
 (depends-on "color-theme-solarized")
 (depends-on "company")
 (depends-on "company-tern")
@@ -17,6 +18,7 @@
 (depends-on "flycheck")
 (depends-on "groovy-mode")
 (depends-on "helm")
+(depends-on "helm-ag")
 (depends-on "helm-core")
 (depends-on "magit")
 (depends-on "markdown-mode")
