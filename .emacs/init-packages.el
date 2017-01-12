@@ -4,6 +4,9 @@
 (require 'pallet)
 (pallet-mode t)
 
+(require 'powerline)
+(powerline-center-evil-theme)
+
 (global-evil-leader-mode)
 (evil-leader/set-key
   "ff" 'find-file
@@ -25,6 +28,9 @@
 (evil-mode 1)
 (setcdr evil-insert-state-map nil)
 (define-key evil-insert-state-map [escape] 'evil-normal-state)
+
+(require 'evil-surround)
+(global-evil-surround-mode 1)
 
 (require 'dockerfile-mode)
 
