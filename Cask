@@ -15,6 +15,7 @@
 (depends-on "elpy")
 (depends-on "erlang")
 (depends-on "evil")
+(depends-on "evil-leader")
 (depends-on "flycheck")
 (depends-on "groovy-mode")
 (depends-on "helm")
@@ -33,4 +34,5 @@
 (depends-on "swiper")
 (depends-on "tern")
 (depends-on "vue-mode")
+(depends-on "window-numbering")
 (depends-on "yaml-mode")

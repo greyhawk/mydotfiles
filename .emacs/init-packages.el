@@ -4,8 +4,27 @@
 (require 'pallet)
 (pallet-mode t)
 
+(global-evil-leader-mode)
+(evil-leader/set-key
+  "ff" 'find-file
+  "fr" 'recentf-open-files
+  "bb" 'switch-to-buffer
+  "bk" 'kill-buffer
+  "pf" 'counsel-git
+  "ps" 'helm-do-ag-project-root
+  ":" 'counsel-M-x
+  "0" 'select-window-0
+  "1" 'select-window-1
+  "2" 'select-window-2
+  "3" 'select-window-3
+  "w/" 'split-window-right
+  "w-" 'split-window-below
+  "wM" 'delete-other-windows
+  )
 (require 'evil)
 (evil-mode 1)
+(setcdr evil-insert-state-map nil)
+(define-key evil-insert-state-map [escape] 'evil-normal-state)
 
 (require 'dockerfile-mode)
 
@@ -20,6 +39,8 @@
 (require 'ein)
 
 (require 'org-pomodoro)
+
+(window-numbering-mode 1)
 
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
@@ -43,6 +64,11 @@
 (add-hook 'js-mode-hook (lambda ()
 			  (tern-mode t)
 			  (flycheck-mode)))
+
+;; use flycheck not flymake with elpy
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 (add-hook 'elpy-mode-hook (lambda () 
