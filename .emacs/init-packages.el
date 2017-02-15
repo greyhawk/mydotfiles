@@ -23,6 +23,13 @@
   "w/" 'split-window-right
   "w-" 'split-window-below
   "wM" 'delete-other-windows
+  "ci" 'evilnc-comment-or-uncomment-lines
+  "cl" 'evilnc-quick-comment-or-uncomment-to-the-line
+  "cc" 'evilnc-copy-and-comment-lines
+  "cp" 'evilnc-comment-or-uncomment-paragraphs
+  "cr" 'comment-or-uncomment-region
+  "cv" 'evilnc-toggle-invert-comment-line-by-line
+  "\\" 'evilnc-comment-operator ; if you prefer backslash key
   )
 (require 'evil)
 (evil-mode 1)
@@ -53,6 +60,7 @@
 
 (smartparens-global-mode t)
 (sp-local-pair '(emacs-lisp-mode lisp-interaction-mode) "'" nil :actions nil)
+(sp-local-pair '(emacs-lisp-mode lisp-interaction-mode) "`" nil :actions nil)
 
 (elpy-enable)
 
@@ -83,5 +91,7 @@
 
 (with-eval-after-load 'company 
 		      (add-to-list 'company-backends 'company-tern))
+
+(which-key-mode)
 
 (provide 'init-packages)
