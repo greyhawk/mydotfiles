@@ -1,0 +1,1 @@
+/Users/ging/.config/fisherman/nvm/completions/nvm.fish

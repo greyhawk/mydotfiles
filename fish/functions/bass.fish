@@ -1,0 +1,1 @@
+/Users/ging/.config/fisherman/bass/functions/bass.fish
