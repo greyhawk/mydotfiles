@@ -4,5 +4,4 @@ if not test -f ~/.config/fish/functions/fisher.fish
   fisher
 end
 
-set -x  HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
-set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
+set -g fish_user_paths "/usr/local/opt/openssl/bin" "/usr/local/sbin" $fish_user_paths
