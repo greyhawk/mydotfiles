@@ -5,3 +5,5 @@ if not test -f ~/.config/fish/functions/fisher.fish
 end
 
 set -g fish_user_paths "/usr/local/opt/openssl/bin" "/usr/local/opt/go/libexec/bin" "/usr/local/sbin" $fish_user_paths
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
