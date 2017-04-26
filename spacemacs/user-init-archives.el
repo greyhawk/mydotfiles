@@ -3,4 +3,4 @@
         ("org-cn"   . "https://elpa.emacs-china.org/org/")
         ("gun-cn"   . "https://elpa.emacs-china.org/gnu/")))
 
-(provide 'init-archives)
+(provide 'user-init-archives)

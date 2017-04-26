@@ -1,0 +1,1 @@
+/Users/ging/.config/fisherman/pyenv/functions/pyenv.fish
