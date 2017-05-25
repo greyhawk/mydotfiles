@@ -4,7 +4,7 @@ SET_EXPORT ANDROID_HOME:/usr/local/opt/android\x2dsdk
 SET_EXPORT EDITOR:vim
 SET_EXPORT GROOVY_HOME:/usr/local/opt/groovy/libexec
 SET_EXPORT HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
-SET_EXPORT JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_121\x2ejdk/Contents/Home/jre
+SET_EXPORT JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_131\x2ejdk/Contents/Home
 SET SBT_OPTS:\x2dXX\x3a\x2bCMSClassUnloadingEnabled\x20\x2dXX\x3aMaxPermSize\x3d512M
 SET_EXPORT SSH_AGENT_PID:56308
 SET_EXPORT SSH_AUTH_SOCK:/var/folders/vz/tlhvxyhn71n7kzv_s1rnsclw0000gn/T//ssh\x2dnsJnK2tAlgH0/agent\x2e56307
