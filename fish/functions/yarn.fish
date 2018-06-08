@@ -1,1 +1,1 @@
-/Users/ging/.config/fisherman/nvm/yarn.fish
+/Users/ging/.config/fisherman/nvm/functions/yarn.fish
