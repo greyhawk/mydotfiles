@@ -10,7 +10,7 @@ SET_EXPORT HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebr
 SET_EXPORT JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_172\x2ejdk/Contents/Home
 SET_EXPORT NODE_PATH:/Users/ging/\x2econfig/yarn/global/node_modules
 SET SBT_OPTS:\x2dXX\x3a\x2bCMSClassUnloadingEnabled\x20\x2dXX\x3aMaxPermSize\x3d512M
-SET_EXPORT SPRING_PROFILES_ACTIVE:stage
+SET_EXPORT SPRING_PROFILES_ACTIVE:dev
 SET_EXPORT SSH_AGENT_PID:56308
 SET_EXPORT SSH_AUTH_SOCK:/var/folders/vz/tlhvxyhn71n7kzv_s1rnsclw0000gn/T//ssh\x2dnsJnK2tAlgH0/agent\x2e56307
 SET __fish_classic_git_prompt_initialized:\x1d
@@ -43,5 +43,5 @@ SET fish_pager_color_completion:\x1d
 SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SET fish_user_paths:/Applications/Wireshark\x2eapp/Contents/MacOS\x1e/opt/X11/bin\x1e/Library/TeX/texbin\x1e/usr/local/opt/go/libexec/bin\x1e/Users/ging/Codes/golang/bin\x1e/usr/local/opt/openssl/bin\x1e/usr/local/Cellar/pyenv/1\x2e2\x2e3/libexec\x1e/Users/ging/\x2epyenv/shims\x1e/Users/ging/\x2envm/versions/node/v8\x2e11\x2e1/bin\x1e/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_172\x2ejdk/Contents/Home/bin\x1e/usr/local/opt/imagemagick\x406/bin
+SET fish_user_paths:/Applications/Wireshark\x2eapp/Contents/MacOS\x1e/opt/X11/bin\x1e/Library/TeX/texbin\x1e/usr/local/opt/go/libexec/bin\x1e/Users/ging/Codes/golang/bin\x1e/usr/local/opt/openssl/bin\x1e/usr/local/Cellar/pyenv/1\x2e2\x2e5/libexec\x1e/Users/ging/\x2epyenv/shims\x1e/Users/ging/\x2envm/versions/node/v8\x2e11\x2e1/bin\x1e/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_172\x2ejdk/Contents/Home/bin\x1e/usr/local/opt/imagemagick\x406/bin
 SET fisher_dependency_count:bass\x1ebass\x1envm\x1epyenv
