@@ -9,8 +9,9 @@ set -e fish_user_paths
 set -U fish_user_paths "/usr/local/opt/imagemagick@6/bin" $fish_user_paths
 set -U fish_user_paths "$JAVA_HOME/bin" $fish_user_paths
 set -U fish_user_paths "/Users/ging/.nvm/versions/node/v8.11.1/bin" $fish_user_paths
-set -U fish_user_paths /usr/local/Cellar/pyenv/1.2.6/libexec /Users/ging/.pyenv/shims $fish_user_paths
+set -U fish_user_paths /usr/local/Cellar/pyenv/1.2.7/libexec /Users/ging/.pyenv/shims $fish_user_paths
 set -U fish_user_paths /usr/local/opt/openssl/bin $fish_user_paths
 set -U fish_user_paths /usr/local/opt/go/libexec/bin /Users/ging/Codes/golang/bin $fish_user_paths
 set -U fish_user_paths /opt/X11/bin /Library/TeX/texbin $fish_user_paths
 set -U fish_user_paths /Applications/Wireshark.app/Contents/MacOS $fish_user_paths
+set -U fish_user_paths "/Users/ging/.minishift/cache/oc/v3.9.0/darwin" $fish_user_paths
