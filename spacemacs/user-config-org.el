@@ -9,7 +9,6 @@
  'org-babel-load-languages
  '(
    (C             . t)
-   (sh            . t)
    (js            . t)
    (dot           . t)
    (python        . t)

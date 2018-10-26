@@ -22,5 +22,3 @@ set -g fish_user_paths "/Applications/Wireshark.app/Contents/MacOS" $fish_user_p
 set -g fish_user_paths "/usr/local/opt/texinfo/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 set -g fish_user_paths "/Users/ging/.local/bin" $fish_user_paths
-
-rvm default

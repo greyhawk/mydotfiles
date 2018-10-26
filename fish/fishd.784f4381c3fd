@@ -4,6 +4,7 @@ SET_EXPORT ANDROID_HOME:/usr/local/share/android\x2dsdk
 SET_EXPORT ANDROID_NDK_HOME:/usr/local/share/android\x2dndk
 SET_EXPORT ANDROID_SDK_ROOT:/usr/local/share/android\x2dsdk
 SET_EXPORT EDITOR:vim
+SET_EXPORT GOBIN:/Users/ging/Codes/golang/bin
 SET_EXPORT GOPATH:/Users/ging/Codes/golang/
 SET_EXPORT GROOVY_HOME:/usr/local/opt/groovy/libexec
 SET_EXPORT HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
