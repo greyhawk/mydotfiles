@@ -1,4 +1,3 @@
-set t_Co=256
 set nocompatible
 filetype off
 
@@ -22,4 +21,3 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
-
