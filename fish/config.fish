@@ -5,7 +5,7 @@ if not test -f ~/.config/fish/functions/fisher.fish
 end
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
-source /Users/ging/.pyenv/versions/miniconda3-latest/etc/fish/conf.d/conda.fish
+test -e {$HOME}/.pyenv/versions/miniconda3-latest/etc/fish/conf.d/conda.fish ; and source {$HOME}/.pyenv/versions/miniconda3-latest/etc/fish/conf.d/conda.fish
 
 set -e fish_user_paths
 set -g fish_user_paths "/usr/local/opt/imagemagick@6/bin" $fish_user_paths
@@ -22,3 +22,6 @@ set -g fish_user_paths "/Applications/Wireshark.app/Contents/MacOS" $fish_user_p
 set -g fish_user_paths "/usr/local/opt/texinfo/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 set -g fish_user_paths "/Users/ging/.local/bin" $fish_user_paths
+
+set -gx LANG en_US.UTF-8
+set -gx LC_CTYPE en_US.UTF-8
