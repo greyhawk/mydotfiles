@@ -8,6 +8,7 @@ SET_EXPORT GOBIN:/Users/ging/Codes/golang/bin
 SET_EXPORT GOPATH:/Users/ging/Codes/golang/
 SET_EXPORT GROOVY_HOME:/usr/local/opt/groovy/libexec
 SET_EXPORT HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
+SET_EXPORT HOST_IP:10\x2e192\x2e15\x2e104
 SET_EXPORT JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_192\x2ejdk/Contents/Home
 SET_EXPORT LANG:en_US\x2eUTF\x2d8
 SET_EXPORT NODE_PATH:/Users/ging/\x2econfig/yarn/global/node_modules
