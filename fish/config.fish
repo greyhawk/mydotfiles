@@ -23,5 +23,5 @@ set -g fish_user_paths "/usr/local/opt/texinfo/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 set -g fish_user_paths "/Users/ging/.local/bin" $fish_user_paths
 
-set -gx LANG en_US.UTF-8
-set -gx LC_CTYPE en_US.UTF-8
+set -gx LANG zh_CN.UTF-8
+set -gx LC_CTYPE zh_CN.UTF-8

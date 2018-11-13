@@ -13,6 +13,7 @@
    (dot           . t)
    (python        . t)
    (plantuml      . t)
+   (scheme        . t)
    (emacs-lisp    . t)))
 
 (provide 'user-config-org)
