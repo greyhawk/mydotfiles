@@ -53,7 +53,7 @@ values."
      scheme
      git
      pandoc
-     latex
+     ;; latex
      (markdown :variables markdown-live-preview-engine 'vmd)
      (org :variables
           org-enable-github-support t
