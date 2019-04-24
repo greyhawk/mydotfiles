@@ -3,7 +3,9 @@
 SETUVAR --export ANDROID_HOME:/usr/local/share/android\x2dsdk
 SETUVAR --export ANDROID_NDK_HOME:/usr/local/share/android\x2dndk
 SETUVAR --export ANDROID_SDK_ROOT:/usr/local/share/android\x2dsdk
+SETUVAR --export APP_CONFIG_FILE:/Users/ging/Codes/spain/spain\x2dpablo\x2dpicasso/config/development\x2epy
 SETUVAR --export EDITOR:vim
+SETUVAR --export FLASK_ENV:development
 SETUVAR --export GOBIN:/Users/ging/Codes/golang/bin
 SETUVAR --export GOPATH:/Users/ging/Codes/golang
 SETUVAR --export GOROOT:/usr/local/opt/go/libexec
