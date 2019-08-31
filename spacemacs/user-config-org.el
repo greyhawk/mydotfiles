@@ -16,4 +16,5 @@
    (scheme        . t)
    (emacs-lisp    . t)))
 
+(add-hook 'doc-view-mode-hook 'auto-revert-mode)
 (provide 'user-config-org)

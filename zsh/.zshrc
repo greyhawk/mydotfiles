@@ -96,3 +96,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/mc mc
+
+export PATH=$PATH:$HOME/.darknode/bin

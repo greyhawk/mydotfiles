@@ -31,50 +31,50 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     emacs-lisp
      shell-scripts
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     (c-c++ :variables c-c++-enable-clang-support t)
-     octave
-     haskell
-     erlang
+     ;; racket
+     ;; (c-c++ :variables c-c++-enable-clang-support t)
+     ;; haskell
+     ;; erlang
+     ;; latex
+     ;; (go :variables
+     ;;     go-tab-width 4
+     ;;     go-use-gometalinter t
+     ;;     gofmt-command "goimports")
      yaml
+     docker
      helm
      osx
      auto-completion
-     ;; spell-checking
      syntax-checking
+     ;; spell-checking
      better-defaults
-     emacs-lisp
-     racket
      git
-     pandoc
-     latex
-     (markdown :variables markdown-live-preview-engine 'vmd)
-     (org :variables
-          org-enable-github-support t
-          org-enable-reveal-js-support t
-          org-projectile-file "TODOS.org")
      (javascript :variables
                  js2-basic-offset 2
                  js-indent-level 2)
      (typescript :variables
                  typescript-fmt-tool 'typescript-formatter)
      react
-     docker
      (python :variables
              python-test-runner '(nose pytest)
              python-enable-yapf-format-on-save t)
      ipython-notebook
      graphviz
      plantuml
-     (go :variables
-         go-tab-width 4
-         go-use-gometalinter t
-         gofmt-command "goimports")
+     pandoc
+     octave
+     (markdown :variables markdown-live-preview-engine 'vmd)
+     (org :variables
+          org-enable-github-support t
+          org-enable-reveal-js-support t
+          org-projectile-file "TODOS.org")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
