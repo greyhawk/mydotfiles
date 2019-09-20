@@ -1,6 +1,6 @@
 (setq configuration-layer--elpa-archives
-      '(("melpa-cn" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-        ("gnu-cn" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-        ("org-cn" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+      '(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+        ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
+        ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
 
 (provide 'user-init-archives)

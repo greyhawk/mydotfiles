@@ -31,6 +31,7 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     erlang
      emacs-lisp
      shell-scripts
      ;; ----------------------------------------------------------------
@@ -41,7 +42,7 @@ values."
      ;; racket
      ;; (c-c++ :variables c-c++-enable-clang-support t)
      ;; haskell
-     ;; erlang
+     erlang
      ;; latex
      ;; (go :variables
      ;;     go-tab-width 4
