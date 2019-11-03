@@ -12,7 +12,7 @@ SETUVAR --export GOROOT:/usr/local/opt/go/libexec
 SETUVAR --export GROOVY_HOME:/usr/local/opt/groovy/libexec
 SETUVAR --export HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
 SETUVAR --export HOST_IP:10\x2e192\x2e15\x2e137
-SETUVAR --export JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_202\x2ejdk/Contents/Home/
+SETUVAR --export JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_202\x2ejdk/Contents/Home
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
 SETUVAR --export NODE_PATH:/Users/ging/\x2econfig/yarn/global/node_modules
 SETUVAR SBT_OPTS:\x2dXX\x3a\x2bCMSClassUnloadingEnabled\x20\x2dXX\x3aMaxPermSize\x3d512M

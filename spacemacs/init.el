@@ -31,18 +31,17 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     erlang
-     emacs-lisp
-     shell-scripts
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     erlang
+     emacs-lisp
+     shell-scripts
      ;; racket
      ;; (c-c++ :variables c-c++-enable-clang-support t)
      ;; haskell
-     erlang
      ;; latex
      ;; (go :variables
      ;;     go-tab-width 4
@@ -71,6 +70,7 @@ values."
      plantuml
      pandoc
      octave
+     csv
      (markdown :variables markdown-live-preview-engine 'vmd)
      (org :variables
           org-enable-github-support t
