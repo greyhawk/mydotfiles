@@ -8,7 +8,6 @@ SETUVAR --export EDITOR:vim
 SETUVAR --export FLASK_ENV:development
 SETUVAR --export GOBIN:/Users/ging/Codes/golang/bin
 SETUVAR --export GOPATH:/Users/ging/Codes/golang
-SETUVAR --export GOROOT:/usr/local/opt/go/libexec
 SETUVAR --export GROOVY_HOME:/usr/local/opt/groovy/libexec
 SETUVAR --export HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
 SETUVAR --export HOST_IP:10\x2e192\x2e15\x2e137

@@ -17,7 +17,6 @@ set -g fish_user_paths "/Users/ging/.nvm/versions/node/v8.11.1/bin" $fish_user_p
 set -g fish_user_paths "/Users/ging/.pyenv/shims" $fish_user_paths
 set -g fish_user_paths "/Users/ging/Codes/golang/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/pyenv/libexec" $fish_user_paths
-set -g fish_user_paths "/usr/local/opt/go/libexec/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/imagemagick@6/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/texinfo/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
