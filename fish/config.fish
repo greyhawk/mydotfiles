@@ -6,6 +6,7 @@ end
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 test -e {$HOME}/.pyenv/versions/miniconda3-latest/etc/fish/conf.d/conda.fish ; and source {$HOME}/.pyenv/versions/miniconda3-latest/etc/fish/conf.d/conda.fish
+test -e /usr/local/opt/asdf/asdf.fish ; and source /usr/local/opt/asdf/asdf.fish
 
 set -e fish_user_paths
 set -U fish_user_paths "/Applications/Wireshark.app/Contents/MacOS" $fish_user_paths

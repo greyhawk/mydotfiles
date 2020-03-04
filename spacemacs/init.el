@@ -31,8 +31,6 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     nginx
-     rust
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -41,13 +39,15 @@ values."
      erlang
      emacs-lisp
      shell-scripts
-     ;; racket
      (c-c++ :variables c-c++-enable-clang-support t)
-     ;; haskell
-     ;; latex
      (go :variables
+         go-backend 'lsp
          go-tab-width 4
-         gofmt-command "goimports")
+         go-format-before-save t
+         gofmt-command "goimports"
+         go-use-golangci-lint t
+         godoc-at-point-function 'godoc-gogetdoc
+         )
      yaml
      docker
      helm
