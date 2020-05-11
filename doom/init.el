@@ -14,9 +14,6 @@
 ;;      Alternatively, press 'gd' (or 'C-c g d') on a module to browse its
 ;;      directory (for easy access to its source code).
 
-(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
-
 (doom! :input
        ;;chinese
        ;;japanese
@@ -146,7 +143,7 @@
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
-       ;;python            ; beautiful is better than ugly
+       python            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
