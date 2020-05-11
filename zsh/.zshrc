@@ -98,3 +98,7 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/mc mc
 
 export PATH=$PATH:$HOME/.darknode/bin
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/ging/.sdkman"
+[[ -s "/Users/ging/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ging/.sdkman/bin/sdkman-init.sh"
