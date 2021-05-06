@@ -87,7 +87,6 @@ export LC_CTYPE=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -102,3 +101,5 @@ export PATH=$PATH:$HOME/.darknode/bin
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/ging/.sdkman"
 [[ -s "/Users/ging/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ging/.sdkman/bin/sdkman-init.sh"
+
+export https_proxy=http://127.0.0.1:7890

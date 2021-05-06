@@ -12,7 +12,6 @@ SETUVAR --export GOPATH:/Users/ging/Codes/go
 SETUVAR --export GOPROXY:https\x3a//goproxy\x2eio
 SETUVAR --export GOSUMDB:sum\x2egolang\x2eorg
 SETUVAR --export GROOVY_HOME:/usr/local/opt/groovy/libexec
-SETUVAR --export HOMEBREW_BOTTLE_DOMAIN:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/homebrew\x2dbottles
 SETUVAR --export HOST_IP:10\x2e192\x2e15\x2e137
 SETUVAR --export JAVA_HOME:/Users/ging/\x2esdkman/candidates/java/current/
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
