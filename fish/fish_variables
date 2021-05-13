@@ -57,3 +57,5 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_user_paths:/usr/local/opt/llvm/bin\x1e/usr/local/opt/pyenv/libexec\x1e/usr/local/lib/ruby/gems/2\x2e7\x2e0/bin\x1e/usr/local/opt/ruby/bin\x1e/usr/local/sbin\x1e/usr/local/opt/binutils/bin\x1e/usr/local/opt/krb5/sbin\x1e/usr/local/opt/krb5/bin\x1e/usr/local/opt/openssl/bin\x1e/usr/local/opt/gettext/bin\x1e/usr/local/opt/texinfo/bin\x1e/usr/local/opt/imagemagick\x406/bin\x1e/Users/ging/Codes/go/bin\x1e/Users/ging/\x2ecargo/bin\x1e/Users/ging/\x2earkade/bin\x1e/Users/ging/\x2elocal/bin\x1e/Library/TeX/texbin\x1e/Users/ging/\x2esdkman/candidates/java/current/bin\x1e/opt/X11/bin\x1e/Applications/Wireshark\x2eapp/Contents/MacOS
+SETUVAR --export http_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a7890
+SETUVAR --export https_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a7890
