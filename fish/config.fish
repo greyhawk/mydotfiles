@@ -34,6 +34,3 @@ set -gx LANG zh_CN.UTF-8
 set -gx LC_CTYPE zh_CN.UTF-8
 set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
 set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
-
-set -Ux http_proxy http://127.0.0.1:7890
-set -Ux https_proxy http://127.0.0.1:7890
